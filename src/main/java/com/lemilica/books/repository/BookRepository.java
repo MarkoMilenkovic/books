@@ -45,6 +45,9 @@ public class BookRepository {
     }
 
     public Book updateBook(Book book) {
+        if (books.stream().noneMatch(e -> e.getId().equals(book.getId()))) {
+            throw new BadRequestException("No book with id: " + book.getId());
+        }
         books.removeIf(e -> e.getId().equals(book.getId()));
         books.add(book);
         return book;

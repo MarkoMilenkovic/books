@@ -5,6 +5,8 @@
 /Users/markomilenkovic/Downloads/books/src/main/java/com/lemilica/books/repository/BookRepository.java
 /Users/markomilenkovic/Downloads/books/src/main/java/com/lemilica/books/entity/Book.java
 /Users/markomilenkovic/Downloads/books/src/main/java/com/lemilica/books/service/BookService.java
+/Users/markomilenkovic/Downloads/books/src/main/java/com/lemilica/books/service/NextSequenceService.java
 /Users/markomilenkovic/Downloads/books/src/main/java/com/lemilica/books/exception/BadRequestException.java
 /Users/markomilenkovic/Downloads/books/src/main/java/com/lemilica/books/BooksApplication.java
 /Users/markomilenkovic/Downloads/books/src/main/java/com/lemilica/books/configuration/SpringFoxConfig.java
+/Users/markomilenkovic/Downloads/books/src/main/java/com/lemilica/books/entity/CustomSequences.java
